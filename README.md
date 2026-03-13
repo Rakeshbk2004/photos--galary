@@ -1,16 +1,75 @@
-# React + Vite
+# 📸 Photo Gallery with Search and Filter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Photo Gallery web application** built using React and Vite.
+This project allows users to browse images, search photos by name, and filter images easily.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🔍 Search photos by title or keyword
+- 🖼️ Display images in a responsive gallery layout
+- 📂 Filter images based on categories
+- ⚡ Fast performance using React + Vite
+- 🎨 Simple and clean UI design
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript (ES6)
+- CSS
+- Vite
+- HTML5
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+photo_gallery
+│
+├── public
+├── src
+│ ├── components
+│ ├── App.jsx
+│ ├── App.css
+│ ├── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+
+## ⚙️ Installation
+
+1. Clone the repository
+
+```
+git clone https://github.com/Rakeshbk2004/photos--galary.git
+```
+
+2. Navigate to the project folder
+
+```
+cd photo_gallery
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Run the development server
+
+```
+npm run dev
+```
+
+## 🌐 Deployment
+
+This project can be deployed using **GitHub Pages**, **Netlify**, or **Vercel**.
+
+## 📷 Use Case
+
+The Photo Gallery application helps users organize and explore images efficiently with search and filter functionality.
+
+## 👨‍💻 Author
+
+Developed by **Rakesh B K**
+
+GitHub: https://github.com/Rakeshbk2004
